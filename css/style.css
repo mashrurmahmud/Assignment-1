@@ -352,8 +352,46 @@ input[type="text"]{
 
 .donate .explore{
     margin: 23px 0px;
+    
 }
 
+input[type="email"]{
+    width: 600px;
+    padding: 18px 40px;
+    border: none;
+    box-shadow: 3px 0px 10px 2px rgba(207,207,207,1);
+    margin: 25px 0px;
+}
+
+.subscribe .input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.subscribe .explore{
+   border: none;
+   outline: none;
+   border-radius: none;
+}
+
+.subscribe .vision-content{
+    width: 1280px;
+    background: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin: 0 auto;
+    height: 395px;
+    
+}
+
+.subscribe .vision-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 
 
